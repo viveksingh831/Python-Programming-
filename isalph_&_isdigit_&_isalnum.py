@@ -1,0 +1,5 @@
+print("\n string checker_&_Number checker_&_Number and string checker(not allow space and special character):-")
+text=input("enter the text or sentence:-")
+print("string:- ",text.isalpha())
+print("Digit:- ",text.isdigit())
+print("string and dight:- ",text.isalnum())
