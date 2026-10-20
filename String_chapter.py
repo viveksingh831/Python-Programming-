@@ -1,3 +1,6 @@
+from operator import le
+
+
 print('spam eggs')
 print("paris rabbit got your back :)! yap!")
 print('"doesn\'t"')
@@ -40,6 +43,26 @@ text=input("enter the string:-")
 word=input("enter the word to find count:-")
 
 print(text.count(word))
+
+print("islower_&_isupper:-string topic \n")
+print("islower:- check every latter is lower ")
+text=input("enter the string:-")
+print(text.islower(),"\n")
+print("isupper:-check every latter is capital")
+text=input("enter the string:-")
+print(text.isupper())
+
+
+print("title and istitle topic:-")
+print("title:-do every word first latter captial\n")
+text=input("enter the string:-")
+print(text.title(),"\n")
+print("istitle:- check every word first latter capital")
+text=input("enter the string:")
+print(text.istitle())
+print(text.title())
+
+
 
 
 
