@@ -60,7 +60,32 @@ print(text.title(),"\n")
 print("istitle:- check every word first latter capital")
 text=input("enter the string:")
 print(text.istitle())
-print(text.title())
+print(text.title(),"\n")
+
+print("isspace:- check string is space or not")
+text=input("enter the string:-")
+print(text.isspace())
+print("Because:- string=empty or space then True otherwise False\n")
+
+
+print("starting and ending word checker:-......")
+text=input("enter the string:-")
+word=input("enter the word that you want to search:-")
+print("Starting word=:-", text.startswith(word))
+print("Ending word:- ",text.endswith(word),"\n")
+
+
+print("\n string checker_&_Number checker_&_Number and string checker(not allow space and special character):-")
+text=input("enter the text or sentence:-")
+print("string:- ",text.isalpha())
+print("Digit:- ",text.isdigit())
+print("string and dight:- ",text.isalnum())
+
+print("isprintable Topic:- ")
+text=input("enter the string")
+print(text)
+
+
 
 
 
