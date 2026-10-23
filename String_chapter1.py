@@ -79,11 +79,14 @@ print("\n string checker_&_Number checker_&_Number and string checker(not allow 
 text=input("enter the text or sentence:-")
 print("string:- ",text.isalpha())
 print("Digit:- ",text.isdigit())
-print("string and dight:- ",text.isalnum())
+print("string and dight:- ",text.isalnum(),"\n")
 
 print("isprintable Topic:- ")
 text=input("enter the string")
-print(text)
+print(text.isprintable())
+print("text:-vivek\nkumar\nsingh")
+print("vivek\nkumar\nsingh".isprintable())
+print("because:-text is not simple text its include next line ")
 
 
 

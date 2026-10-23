@@ -1,0 +1,5 @@
+print("Partition and rpartition :- topic ")
+text=input("enter the string:-")
+word=input("enter the partition word:_")
+print("partition:-",text.partition(word))
+print("rpartition:-",text.rpartition(word))
