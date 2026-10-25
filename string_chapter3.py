@@ -7,16 +7,32 @@ numbers=[1,2,3,4,5]
 print("numbers:-",numbers)
 print(numbers[2])
 print("type:-",type(numbers))
+
 numbers[2]=10
+numbers = numbers + [11,12,13]
+print(numbers[-1])
+
+
 print("numbers",numbers)
 print(numbers[-1])
 
 numbers.append(6)
 print("numbers:-",numbers)
-number=list(range(1,101))
+number=list(range(1,21))
 print("number:-",number)
+
+numbers.insert(2,50) 
+print("numbers:-",numbers)
+numbers.remove(6)
+print("numbers:-",numbers)
+
 
 num=list(map(int,input("enter the number:-").split()))
 print("num:-",num)
+
+
+
+
+
 
 
